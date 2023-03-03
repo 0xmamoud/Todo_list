@@ -23,13 +23,12 @@ addToDo.addEventListener("click", function() {
           toDoContainer.appendChild(newDiv);
           newDiv.appendChild(pElement);
           newDiv.appendChild(imageRemouve);
-      
+          
           inputField.value = "";
-      
+
           imageRemouve.addEventListener("click", function() {
               newDiv.remove();
           });
-
           newDiv.addEventListener("click", function() {
             newDiv.style.backgroundColor = " rgb(247,118,118)";
             newDiv.style.textDecoration = "line-through";
@@ -40,3 +39,10 @@ addToDo.addEventListener("click", function() {
   }
 });
 
+
+console.log("1");
+console.log("1");
+console.log("1");
+console.log("1");
+console.log("1");
+console.log("1");
